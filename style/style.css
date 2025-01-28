@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&family=Satisfy&display=swap");
+:root {
+  --cor-primaria: #ffffff;
+  --cor-secundaria: #dfc5a5;
+  --cor-terciaria: #C5705D;
+  --fonte-houver: #d6b39c;
+  --roda-pe: #C5705D;
+  --fonte-titulo: #C5705D;
+  --fonte-principal: "Krona One", sans-serif;
+  --fonte-secundaria: "Montserrat", sans-serif;
+  --fonte-terciaria: "Satisfy", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* height: 100vh; */
+  box-sizing: border-box;
+  background-color: var(--cor-secundaria);
+}
+.titulo-destaque {
+  color: var(--fonte-titulo);
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: var(--fonte-terciaria);
+  color: var(--cor-primaria);
+}
+.cabecalho {
+  padding: 2% 0% 0% 15%;
+}
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+}
+.cabecalho__menu__link {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--cor-terciaria);
+  text-decoration: none;
+}
+.apresentacao {
+  padding: 7% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.apresentacao__conteudo__texto {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  color: var(--cor-primaria);
+}
+.apresentacao__links__subtitulo {
+  font-family: var(--fonte-principal);
+  font-weight: 100;
+  color: var(--cor-terciaria);
+}
+.apresentacao__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.apresentacao__links__link {
+  /*background-color: aqua;*/
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  border: 2px solid var(--cor-terciaria);
+  width: 378px;
+  text-align: center;
+  border-radius: 18px;
+  font-size: 24px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: var(--cor-primaria);
+  font-family: var(--fonte-secundaria);
+  font-weight: 600;
+}
+.apresentacao__links__link:hover {
+  background-color: var(--fonte-houver);
+}
+.rodape {
+  color: aliceblue;
+  background-color: var(--roda-pe);
+  padding: 24px;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  font-weight: 400;
+}
